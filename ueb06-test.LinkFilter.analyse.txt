@@ -1,0 +1,98 @@
+<img border="0" src="test_Dateien/fb_gis_pi.jpg">
+	<----->	http://www.htw-saarland.de/fb/gis/pi/pi.html
+<blink><i>Weihnachtsgr&uuml;&szlig;e 98</i></blink>
+	<----->	/fb/gis/people/apick/diverses/weihnacht-98.html
+<img border="5" src="test_Dateien/sis1.jpg">
+	<----->	https://stl-www.htw-saarland.de/" target="SIS_MASTER
+<i>Praktikum�Programmiersprachen�</i>1
+	<----->	http://www.htw-saarland.de/fb/gis/labore/syst-lab/fach/ws03-ps1/praktikum.html
+<i>Aktuelle�Uebungsergebnisse</i>
+	<----->	https://stl-www.htw-saarland.de/cgi-bin/login_dcd.cgi?Art=neu&amp;Folge=zeige_up_dcd.cgi
+Prof. Dr. Guettler
+	<----->	http://www.htw-saarland.de/fb/gis/people/rguettler/index.html
+<img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM">
+	<----->	mailto:guettler@htw-saarland.de
+Prof. Dr. Kretschmer
+	<----->	http://www.htw-saarland.de/fb/gis/people/tkretschmer.html
+<img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM">
+	<----->	mailto:kretschmer@htw-saarland.de
+Robert Moergen
+	<----->	http://www.htw-saarland.de/fb/gis/people/rmoergen.html
+<img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM">
+	<----->	mailto:romoe@htw-saarland.de
+Dipl.-Ing. Wolfgang Pauly
+	<----->	http://www.htw-saarland.de/fb/gis/people/wpauly.html
+<img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM">
+	<----->	mailto:wpy@htw-saarland.de
+Dipl.-Inform. Achim Pick
+	<----->	http://www.htw-saarland.de/fb/gis/people/apick.html
+<img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM">
+	<----->	mailto:api@htw-saarland.de
+<img src="./syst-lab/hiwi/rpiontek.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/rpiontek.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:rpiontek@htw-saarland.de
+<img src="./syst-lab/hiwi/fkammann.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/fkammann.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:fkammann@htw-saarland.de
+<img src="./syst-lab/hiwi/mdausig.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/mdausig.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:mdausig@htw-saarland.de
+<img src="./syst-lab/hiwi/edillinger.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/edillinger.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:edillinger@htw-saarland.de
+<img src="./syst-lab/hiwi/hbassalik.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/hbassalik.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:hbassalik@htw-saarland.de
+<img src="./syst-lab/hiwi/alitzenburger.jpg" width=13 HEIGTH=13 align=ABSMIDDLE>
+	<----->	./syst-lab/hiwi/alitzenburger.jpg" border=
+<img src="/img/e-mail.gif" align=ABSMIDDLE>
+	<----->	mailto:alitzenburger@htw-saarland.de
+Online Handbuecher
+	<----->	http://www1.htw-saarland.de/stl/onl-doc.html
+Benutzer-Infos
+	<----->	http://www1.htw-saarland.de/stl/stl-master.html
+SPAM-Handling
+	<----->	http://www1.htw-saarland.de/stl/spam.html
+Viren-Mail-Handling
+	<----->	http://www1.htw-saarland.de/stl/virus.html
+E-Mail-Zertifikate
+	<----->	http://www.htw-saarland.de/stl/stl-ca.html
+HTML
+	<----->	http://www.htw-saarland.de/stl/syst-lab/benu.html
+PDF
+	<----->	http://www-zdve.htw-saarland.de/intra/downloads/Benutzerordnung%202001Endfassung.pdf
+Word
+	<----->	http://www-zdve.htw-saarland.de/intra/downloads/Benutzerordnung%202001Endfassung.doc
+Lageplan
+	<----->	http://www.htw-saarland.de/img/plaene/2og.html
+EDV-Fallstudien
+	<----->	/fb/gis/pi/edv-fallstudien/edv-fallstudien.html
+Was ist ein Betriebssystem
+	<----->	http://www.netzmafia.de/skripten/bs/
+UNIX Einf&uuml;hrung Uni T&uuml;bingen
+	<----->	http://www.uni-tuebingen.de/zdv/schriften/unix_html/unix.html
+Apropos JAVA - Einige Lernhilfen
+	<----->	http://www.htw-saarland.de/stl/syst-lab/java/java.html
+GCC Manual
+	<----->	http://gcc.gnu.org/onlinedocs/
+Die WWW-Entstehungs-Geschichte
+	<----->	http://www.w3history.org/de/
+www.suchmaschinen.de
+	<----->	http://www.suchmaschinen.de/
+BSI Home-Page
+	<----->	http://www.bsi.bund.de/
+An Atlas of Cyberspaces
+	<----->	http://www.cybergeography.org/
+<img border="0" src="test_Dateien/leiste-home.gif" alt="HOME-Logo">
+	<----->	http://www.htw-saarland.de/stl" target="_top
+<img border="0" src="test_Dateien/leiste-htw.gif" alt="HTW-Logo">
+	<----->	http://www.htw-saarland.de/" target="_top
+<img border="0" src="test_Dateien/leiste-suche.gif" alt="Suche-Logo">
+	<----->	http://www.htw-saarland.de/ghindex.html" target="_top
+<i>W3INSERV</i>
+	<----->	http://www.htw-saarland.de/info.html" target="_top

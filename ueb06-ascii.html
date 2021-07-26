@@ -1,0 +1,408 @@
+<html><head>
+<link rel="SHORTCUT ICON" href="test_Dateien/stl2.txt" type="image/ico">
+<title>HTWdS-&gt;GIS-&gt;Labore-&gt;Systemtechnik-Labor</title><!-- vvv mbomm, 22.5.97 vvv ---><script language="JavaScript">
+
+   <!-- Beginning of JavaScript Applet -------------------
+
+   /*   Original code (C)1996 Web Integration Systems, Inc. DBA Websys, Inc.
+        All Rights Reserved.  This code can be re-used or modified, if credit
+        is given in the source code.
+
+        Disclaimer:  We will not be held responsible for any unwanted effects
+        due to the usage of this applet or any derivative.  No warrantees for
+        usability for any specific application are given or implied.
+
+   */
+
+    function scrollit_r21(seed)
+    {
+/*     var m1  = " NEU !!!! JDK 1.1.1 und HOTJAVA auf SGI verfuegbar !!!! "; */
+       var m1  = " ...  UMBAU  vom  19.7  bis  17.9";
+       var m2  = " ";
+       var m3  = " ... ";
+
+       var msg=m1+m2+m3;
+       var out = " ";
+       var c   = 1;
+
+       if (seed > 100) {
+          seed--;
+          var cmd="scrollit_r21(" + seed + ")";
+          timerTwo=window.setTimeout(cmd,100);
+       }
+       else if (seed <= 100 && seed > 0) {
+          for (c=0 ; c < seed ; c++) {
+             out+=" ";
+          }
+          out+=msg;
+          seed--;
+          var cmd="scrollit_r21(" + seed + ")";
+          window.status=out;
+          timerTwo=window.setTimeout(cmd,100);
+       }
+       else if (seed <= 0) {
+          if (-seed < msg.length) {
+             out+=msg.substring(-seed,msg.length);
+             seed--;
+             var cmd="scrollit_r21(" + seed + ")";
+             window.status=out;
+             timerTwo=window.setTimeout(cmd,100);
+          }
+          else {
+             window.status=" ";
+             timerTwo=window.setTimeout("scrollit_r21(100)",75);
+          }
+       }
+    }
+    // -- End of JavaScript code -------------- -->
+
+</script></head>
+
+
+
+
+
+<body background="test_Dateien/shk.gif">
+<!--
+<body background="/img/shk.gif" onLoad="timerONE=window.setTimeout('scrollit_r21(100)',500);">
+-->
+
+
+<table width="100%">
+<tbody><tr>
+<td width="30%">
+<!--  <img src="/img/fb_gis_pi.jpg"> -->
+  <a href="http://www.htw-saarland.de/fb/gis/pi/pi.html"> <img border="0" src="test_Dateien/fb_gis_pi.jpg"></a>
+<!--Platzhalter fuer Ueberschrift-->
+</td><td align="center" width="50%">
+<font size="+2"><b>Systemtechnik-Labor</b></font>
+
+<!-- <br> <br>
+  <a href="/fb/gis/people/apick/diverses/weihnacht-98.html"> <blink><i>Weihnachtsgr&uuml;&szlig;e 98</i></blink></a>
+-->
+
+<!--Platzhalter fuer SiS-Logo-->
+</td><td align="right" valign="middle" width="20%">
+    <a href="https://stl-www.htw-saarland.de/" target="SIS_MASTER"> <img border="5" src="test_Dateien/sis1.jpg"></a>
+</td>
+</tr>
+
+</tbody></table>
+
+<hr noshade="noshade">
+
+<!-- Infos zum Umbau
+<table width=100%>
+<tr bgcolor=#FF0000 >
+<td>
+  <table width=100%>
+  <tr>
+  <td align=CENTER valign=TOP bgcolor=#FF0000 width=35%>
+      <font size=+7> <font color=#FFFFFF> <br>
+      <bIG><b>&nbsp;&nbsp;Infos zum UMBAU&nbsp;&nbsp;</b></BIG>
+      <br> <br> </font> </font>
+  </td>
+  <td bgcolor=#FFFFFF width=65%>
+      <font color=#FF0000> <br>
+      <b>
+        <ul type=disc>
+          <li> 25.6. -> START
+          <li> 28.6. Tische in 8207 gek&uuml;rzt
+          <li> 29.6. SUNs in 8209 aufgestellt
+          <li> 09.7. Probeinstallation Sol7 auf PC &uuml;ber CD-ROM
+          <li> 13.7. Installationsserver eingerichtet
+          <li> 13.7. Drucker, Scanner, Bandlaufwerk und 3 Monitore erhalten
+          <li> 14.7. Mitarbeiter-PCs erhalten
+          <li> 14.7. SCSI-Kabel am Bandlaufwerk defekt
+          <li> 19.7. Raum 8207 abgebaut 
+          <li> 19.7. SUNs in Raum 8209 auf 72 MB aufger&uuml;stet 
+          <li> 19.7. Server stl-s-i1 und Referenz-PC stl-c-01 erhalten
+          <li> 20.7. CD-Rom am Server stl-s-i1 defekt
+          <li> 22.7. CD-Rom am Server stl-s-i1 getauscht
+          <li> 26.7. Server stl-s-i2 erhalten
+          <li> 26.7. Boardakku am Server stl-s-i1 defekt
+          <li> 27.7. USV erhalten
+          <li> 28.7. Sol7 f&uuml;r X86 und Datensicherungssoftware erhalten
+          <li> 29.7. Statistiksoftware erhalten
+          <li> 29.7. Probeinstallation &uuml;ber Sol7-CD auf allen Intel-Rechnern
+          <li> 02.8. 3 Switches erhalten
+          <li> 04.8. neuen Boardakku f&uuml;r Server stl-s-i1 erhalten
+          <li> 06.8. Secure Net erhalten
+          <li> 09.8. Labor-Server und Netz wieder lauff&auml;hig gemacht
+          <li> 09.8. Oracle Web Application Server erhalten, Rechnung falsch
+          <li> 09.8. neues SCSI-Kabel f&uuml;r  Bandlaufwerk erhalten
+          <li> 10.8. Monitore erhalten und aufgebaut
+          <li> 10.8. Patchkabel erhalten, laut Lieferschein fehlt ein Kabel
+          <li> 10.8. erste erfolgreiche Sol7-Installation &uuml;ber Netz vom Installationsserver
+          <li> <i>11.8. Studenten-PCs nicht wie geplant (zum 11.8.99) geliefert;
+               <br>neuer Termin 27.8.99&nbsp;!!!</i>
+        </ul>
+        <ul type=circle>
+          #<li> 17.9. -< ENDE (hoffentlich)
+        </ul>
+      </b>
+      </font>
+  </td>
+  </tr>
+  </table>
+</tr>
+</table>
+
+<hr size=2 noshade>
+-->
+
+<table width="100%">
+  <tbody><tr>
+    <td align="left">
+      <font size="-1">
+      <a href="http://www.htw-saarland.de/fb/gis/labore/syst-lab/fach/ws03-ps1/praktikum.html"> <i>Praktikum Programmiersprachen</i>1</a>
+      </font>
+    </td><td align="right">
+      <font size="-1">
+      <a href="https://stl-www.htw-saarland.de/cgi-bin/login_dcd.cgi?Art=neu&amp;Folge=zeige_up_dcd.cgi"> <i>Aktuelle Uebungsergebnisse</i></a>
+      </font>
+  </td></tr>
+</tbody></table>
+
+<h3>Leiter:</h3>
+
+<table width="100%">
+<tbody><tr>
+<td align="left" width="2%">
+</td><td align="left" valign="bottom" width="44%">
+  <a href="http://www.htw-saarland.de/fb/gis/people/rguettler/index.html">Prof. Dr. Guettler</a> <br>Raum: 8236  Telefon: 238
+  <br>
+  <a href="mailto:guettler@htw-saarland.de"> <img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM"></a>
+  guettler@htw-saarland.de 
+</td><td align="left" width="8%">
+</td><td align="left" width="44%">
+  <a href="http://www.htw-saarland.de/fb/gis/people/tkretschmer.html">Prof. Dr. Kretschmer</a> <br>Raum: 8237  Telefon: 423
+  <br>
+  <a href="mailto:kretschmer@htw-saarland.de"> <img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM"></a>
+  kretschmer@htw-saarland.de
+</td></tr></tbody></table>
+
+
+<h3>Mitarbeiter:</h3>
+
+<table width="100%">
+<tbody><tr>
+<td align="left" width="2%">
+</td><td align="left" width="25%">
+  <a href="http://www.htw-saarland.de/fb/gis/people/rmoergen.html">Robert Moergen</a> <br>Raum: 8203  Telefon: 415
+  <br>
+  <a href="mailto:romoe@htw-saarland.de"> <img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM"></a>
+  romoe@htw-saarland.de
+</td><td align="left" width="24%">
+  <a href="http://www.htw-saarland.de/fb/gis/people/wpauly.html">Dipl.-Ing. Wolfgang Pauly</a> <a href="http://www.htw-saarland.de/stl/syst-lab/sicherheit.html">a</a> Raum: 8210  Telefon: 239
+  <br>
+  <a href="mailto:wpy@htw-saarland.de"> <img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM"></a>
+  wpy@htw-saarland.de
+</td><td align="left" width="29%">
+  <a href="http://www.htw-saarland.de/fb/gis/people/apick.html">Dipl.-Inform. Achim Pick</a> <br>Raum: 8211  Telefon: 237
+  <br>
+  <a href="mailto:api@htw-saarland.de"> <img src="test_Dateien/e-mail.gif" border="1" height="12" witdh="20" valign="BOTTOM"></a>
+  api@htw-saarland.de
+</td></tr></tbody></table>
+
+
+<h3>Oeffnungszeiten:</h3>
+
+<!--  Oeffnungszeiten im Semester  -->
+
+<!--  Zeiten ohne HiWis !!!  ####################################### -->
+
+<table> 
+<tbody><tr>
+
+<td>
+</td><td align="center" valign="top" colspan="2">
+<i> <b> waehrend der Vorlesungen </b> </i>
+
+</td><td>
+
+</td><td align="center" colspan="2">
+<i> <b>in den Semesterferien  </b> </i>
+
+</td></tr><tr>
+
+<td><br><br><br>
+</td><td align="right" bgcolor="#7cfc00">
+  Mo - Do : <br>
+       Fr :
+</td><td align="center" bgcolor="#7cfc00">
+     8<sup><font size="1">00</font></sup>
+  - 16<sup><font size="1">00</font></sup>
+<br>            8<sup><font size="1">00</font></sup>
+  - 14<sup><font size="1">30</font></sup>
+
+<!--  Oeffnungszeiten ausserhalb des Semesters  -->
+
+</td><td>                               <!--  bgcolor=#ff9900   Orange    -->
+</td><td align="right" bgcolor="#ff9900">
+  Mo - Do : <br>
+       Fr :
+</td><td align="center" bgcolor="#ff9900">
+     8<sup><font size="1">00</font></sup>
+  - 16<sup><font size="1">00</font></sup> <br>            
+     8<sup><font size="1">00</font></sup>
+  - 14<sup><font size="1">30</font></sup>
+</td></tr></tbody></table>
+
+<!-- ### ENDE ### Zeiten ohne HiWis !!!  ################################  -->
+
+<!--  Zeiten nur Di,Do laenger  ####################################
+
+<table cellpadding=8>
+<tr bgcolor=#7cfc00>
+
+<td align=RIGHT>
+  Mo&nbsp;,&nbsp;Mi&nbsp;: <br>
+  Di&nbsp;,&nbsp;Do&nbsp;: <br>
+                 Fr&nbsp;:
+<td align=CENTER>
+                    8<sup><font size=1>00</font></SUP>
+                 - 16<sup><font size=1>00</font></SUP> <br>
+                    8<sup><font size=1>00</font></SUP>
+                 - 17<sup><font size=1>00</font></SUP> <br>
+                    8<sup><font size=1>00</font></SUP>
+                 - 14<sup><font size=1>30</font></SUP>
+<tr>
+</table>
+-->
+
+<!--
+### ENDE ### Zeiten nur Di,Do laenger  ######################  -->
+
+<!--  Zeiten mit HiWis !!!  ########################################
+
+<table cellpadding=8>
+<tr bgcolor=#7cfc00>
+
+<td align=right>
+  Mo, Mi&nbsp;: <br>
+  Di, Do&nbsp;: <br>
+      Fr&nbsp;:
+<td align=middle>
+                    8<sup><font size=1>00</font></SUP>
+                 - 18<sup><font size=1>30</font></SUP> <br>
+                    8<sup><font size=1>00</font></SUP>
+                 - 17<sup><font size=1>00</font></SUP> <br>
+                    8<sup><font size=1>00</font></SUP>
+                 - 16<sup><font size=1>45</font></SUP>
+<td>
+    ( 16<sup><font size=1>15</font></SUP>
+    - 18<sup><font size=1>30</font></SUP> nur HiWi-Betreuer ) <br>
+    <br>
+    ( 14<sup><font size=1>45</font></SUP>
+    - 16<sup><font size=1>45</font></SUP> nur HiWi-Betreuer )
+<tr>
+</table>
+
+### ENDE ### Zeiten mit HiWis !!!  ##########################  -->
+
+<!--  Namensliste der HiWis, die im Semester das Labor offenhalten
+
+<table>
+<tr valign=bottom>
+<td> <b> HiWi-Betreuer: </b>
+
+<td> Mo
+<td nowrap> R. Piontek
+<td nowrap> <a href="./syst-lab/hiwi/rpiontek.jpg" border=1> <img src="./syst-lab/hiwi/rpiontek.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:rpiontek@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+<td nowrap> &nbsp; &nbsp;
+<td nowrap> F. Kammann
+<td nowrap> <a href="./syst-lab/hiwi/fkammann.jpg" border=1> <img src="./syst-lab/hiwi/fkammann.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:fkammann@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+</tr> <tr valign=bottom>
+
+<td nowrap> <td> Mi
+<td nowrap> M. Dausig
+<td nowrap> <a href="./syst-lab/hiwi/mdausig.jpg" border=1> <img src="./syst-lab/hiwi/mdausig.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:mdausig@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+<td nowrap> &nbsp;
+<td nowrap> E. Dillinger
+<td nowrap> <a href="./syst-lab/hiwi/edillinger.jpg" border=1> <img src="./syst-lab/hiwi/edillinger.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:edillinger@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+</tr> <tr valign=bottom>
+
+<td> <td> Fr
+<td nowrap> H. Bassalik
+<td nowrap> <a href="./syst-lab/hiwi/hbassalik.jpg" border=1> <img src="./syst-lab/hiwi/hbassalik.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:hbassalik@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+<td nowrap> &nbsp;
+<td nowrap> A. Litzenburger
+<td nowrap> <a href="./syst-lab/hiwi/alitzenburger.jpg" border=1> <img src="./syst-lab/hiwi/alitzenburger.jpg" width=13 HEIGTH=13 align=ABSMIDDLE></a>
+<td nowrap> <a href="mailto:alitzenburger@htw-saarland.de"> <img src="/img/e-mail.gif" align=ABSMIDDLE></a>
+</tr>
+</table>
+
+
+### ENDE Namensliste der HiWis, die im Semester das Labor offenhalten  -->
+
+
+<h3>wichtige Hinweise:</h3>
+
+<ul>
+<!--
+-->
+<li>
+  <a href="http://www1.htw-saarland.de/stl/onl-doc.html"> Online Handbuecher</a>
+  (nur Intranet)
+</li><li>
+  <a href="http://www1.htw-saarland.de/stl/stl-master.html">Benutzer-Infos</a>
+  <a href="http://www1.htw-saarland.de/stl/spam.html">SPAM-Handling</a>
+  <a href="http://www1.htw-saarland.de/stl/virus.html">Viren-Mail-Handling</a>
+  <a href="http://www.htw-saarland.de/stl/stl-ca.html">E-Mail-Zertifikate</a> </li><li>
+  Benutzerordnung
+  <a href="http://www.htw-saarland.de/stl/syst-lab/benu.html">HTML</a>
+  <a href="http://www-zdve.htw-saarland.de/intra/downloads/Benutzerordnung 2001Endfassung.pdf"> PDF</a>
+  <a href="http://www-zdve.htw-saarland.de/intra/downloads/Benutzerordnung 2001Endfassung.doc"> Word</a> </li><li>
+  <a href="http://www.htw-saarland.de/img/plaene/2og.html"> Lageplan</a> <!--
+   <li><a href="/fb/gis/pi/edv-fallstudien/edv-fallstudien.html"> EDV-Fallstudien</a> -->
+</li></ul>
+
+<h3>diverses:</h3>
+<ol>
+<li><h4>allgemeines zu Betriebssystemen und UNIX :</h4>
+<ul>
+<li><a href="http://www.netzmafia.de/skripten/bs/">  Was ist ein Betriebssystem </a>  FH Muenchen </li><li><a href="http://www.netzmafia.de/skripten/unix/">  UNIX Einfuehrung </a>  FH Muenchen <!--
+<li><a href="http://www.uni-tuebingen.de/zdv/schriften/unix_html/unix.html">  UNIX Einf&uuml;hrung Uni T&uuml;bingen</a>  --> </li></ul>
+
+
+<br></li><li><h4>JAVA im ... :</h4>
+<ul>
+<li><a href="http://www.htw-saarland.de/stl/syst-lab/java/java.html"> Apropos JAVA - Einige Lernhilfen</a> </li></ul>
+
+<br></li><li><h4>Hilfen zum GNU C++ Compiler</h4>
+<ul>
+<li><a href="http://gcc.gnu.org/onlinedocs/"> GCC Manual </a> </li><li><a href="http://gcc.gnu.org/faq.html"> G++ FAQ </a> </li><li><a href="http://www.codeguru.com/cpp/tic/index.shtml"> Thinking in C++ </a> </li><li><a href="http://www.htw-saarland.de/stl/syst-lab/c++sft/g++-Compiler.zip"> G++-Compiler fuer MS-DOS, Win95 und WinNT</a> </li><li><a href="http://www.htw-saarland.de/stl/syst-lab/c++sft/rhide-entwicklung.zip"> C++-Entwicklungsumgebung fuer MS-DOS, Win95 und WinNT</a> </li></ul>
+
+<br></li><li><h4>allgemeines zum Internet :</h4>
+<ul>
+<li><a href="http://www.w3history.org/de/"> Die WWW-Entstehungs-Geschichte</a> </li><li><a href="http://www.lrz-muenchen.de/services/netzdienste/internet/"> Online Internet-Kurs aus Muenchen</a> </li><li><a href="http://www.mailhilfe.de/"> Online Hilfe fuer alle gaengigen E-Mail-Programme</a> </li><li><a href="http://www.lrz-muenchen.de/services/netzdienste/email/uebersicht-email/"> Online e-mail-Kurs aus Muenchen</a> </li><li><a href="http://vsys-www.informatik.uni-hamburg.de/ergonomie">Software-Ergonomie und das World Wide Web</a> </li><li><a href="http://www.w3.org/Provider/Style/Overview.html">Style Guide for online hypertext </a> </li><li><a href="http://gaius.jura.uni-sb.de/HTML/"> Wie schreibe ich ein HTML-Dokument ?</a> </li><li><a href="http://www.teamone.de/selfhtml/index.htm"> HTML-Dateien selbst erstellen !</a> </li><li><a href="http://www.th-darmstadt.de/helps/"> HTML-Kurs TH-Darmstadt</a> </li><li><a href="http://www.networds.de/"> Das Internet-Woerterbuch</a> </li></ul>
+<br></li><li><h4>Suchen im ... :</h4>
+<ul>
+<li><a href="http://www.suchmaschinen.de/"> www.suchmaschinen.de</a> </li></ul>
+<br></li><li><h4>Bundesamt fuer Sicherheit in der Informationstechnik im ... :</h4>
+<ul>
+<li><a href="http://www.bsi.bund.de/"> BSI Home-Page</a> </li><li><a href="http://www.bsi.bund.de/aktuell/index.htm"> BSI aktuell</a> </li></ul>
+<br></li><li><h4> Internet wohin ... :</h4>
+<ul>
+<li><a href="http://www.cybergeography.org/">An Atlas of Cyberspaces</a> </li><li><a href="http://www.caida.org/tools/visualization/mapnet/">Mapnet</a> </li><li><a href="http://www.entry.de/">CIS - Center for Information Services - Deutschland</a> </li><li><a href="http://www.entry.de/karte_Saarland.html">CIS - Center for Information Services - Saarland</a> </li><li><a href="http://search.de/">Willkommen bei WWW.SEARCH.DE!</a> </li><li><a href="http://www.denic.de/">Deutsches Network Information Center</a> ( DENIC ) </li><li><a href="http://www.rrzn.uni-hannover.de/inet-zu-de.html">Internet-Zugaenge in Deutschland</a> </li><li><a href="http://www.pop-brb.de/verz.html">Verzeichnisse im Internet - Linksammlung</a> </li><li><a href="http://www.cybergeography.org/geography_of_cyberspace.html">The Geography of Cyberspace</a> </li><li><a href="http://searchenginewatch.com/">Search Engine Watch: News, Tips and More About Search Engines</a>
+</li></ul>
+</li></ol>
+<br>
+<!--Beginn Seitenfuss-->
+<hr size="2" noshade="noshade">
+<table width="100%">
+<tbody><tr><td>
+<a href="http://www.htw-saarland.de/stl" target="_top"><img border="0" src="test_Dateien/leiste-home.gif" alt="HOME-Logo"></a> <img border="0" src="test_Dateien/leiste-leer.gif">
+<a href="http://www.htw-saarland.de/" target="_top"><img border="0" src="test_Dateien/leiste-htw.gif" alt="HTW-Logo"></a> <a href="http://www.htw-saarland.de/stud-service/studien-infos.html" target="_top"><img border="0" src="test_Dateien/leiste-infos.gif" alt="Info-Logo"></a> <a href="http://www.htw-saarland.de/techtrans/techtrans-infos.html" target="_top"><img border="0" src="test_Dateien/leiste-techtrans.gif" alt="Technologie-Logo"></a> <a href="http://www.htw-saarland.de/service/service-infos.html" target="_top"><img border="0" src="test_Dateien/leiste-kompass.gif" alt="Service-Logo"></a> <img border="0" src="test_Dateien/leiste-leer.gif">
+<a href="http://www.htw-saarland.de/ghindex.html" target="_top"><img border="0" src="test_Dateien/leiste-suche.gif" alt="Suche-Logo"></a> <a href="http://www.htw-saarland.de/service/hilfe.html" target="_top"><img border="0" src="test_Dateien/leiste-question.gif" alt="Fragezeichen-Logo"></a> <a href="mailto:api@htw-saarland.de" target="_top"><img border="0" src="test_Dateien/leiste-feedback.gif" alt="Feedback-Logo"></a>
+</td><td align="right" valign="top">
+<font size="-5">Hochschule fuer<br>Technik und Wirtschaft<br>des Saarlandes</font><br>
+<font size="-1"><a href="http://www.htw-saarland.de/info.html" target="_top"><i>W3INSERV</i></a><br> <!--Datum-->8. Maerz 1999<!--/Datum--></font>
+</td></tr></tbody></table>
+</body></html>
